@@ -1,0 +1,231 @@
+body{
+  background-image: url(wood_pattern.png);
+
+  background-repeat: repeat;
+  font-family: myriad-pro-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+nav{
+  height: 80px;
+  background-color: #66d999;
+}
+
+
+a{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  color: white;
+  font-size: 12pt;
+  float: right;
+
+  text-decoration: none;
+}
+
+
+a:hover{
+  background-color: #549973;
+}
+
+.start{
+ float: left;
+ padding-top: 10px;
+ padding-bottom: 0;
+ height: 70px;
+ width: 200px;
+}
+
+
+
+.logo{
+  height: 80%;
+  width: 80%;
+}
+
+.icoontje{
+  height: 10%;
+  width: 10%;
+}
+
+.logotjes{
+  display: grid;
+  grid-auto-rows: 1fr 1fr;
+  float: right;
+}
+
+.logotje{
+
+  padding: 0;
+  padding-left: 20px;
+  padding-top: 5px;
+  width: 35px;
+  height: 35px;
+
+}
+
+.logotje img{
+  width: 60%;
+  height: 60%;
+
+}
+
+main{
+  width: 70vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  margin: auto;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+
+}
+
+
+h1{
+
+font-size: 36pt;
+margin-bottom: 30px;
+margin-top: 0;
+}
+
+h2{
+  font-size: 18pt;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+
+.container{
+  width: inherit;
+}
+
+
+.foto{
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-column-gap: 2vw;
+  height: inherit;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 30px;
+  max-width: 400px;
+}
+
+p{
+  margin-bottom: 40px;
+}
+
+button{
+  font-weight: bold;
+  font-size: 12pt;
+  border: 0px;
+  border-radius: 7px;
+  background-color: #f7ff91;
+  height: 40px;
+}
+
+.link{
+  height: 40px;
+  width: 40px;
+
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+  text-indent: -9999px;
+
+}
+
+.insta{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2000px-Instagram_logo_2016.svg.png);
+  background-color: #bc1888;;
+  background-size: 100%;
+
+    position: fixed;
+    right: 0;
+    bottom: 120px;
+
+}
+
+.facebook{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png);
+  background-color: #3b5998;
+  background-size: 100%;
+
+
+    position: fixed;
+    right: 0;
+    bottom: 80px;
+}
+
+.twitter{
+  background-image: url(https://pbs.twimg.com/profile_images/875135141135302656/eiM2Wz66_400x400.jpg);
+  background-color: #1da1f2;
+  background-size: 100%;
+
+    position: fixed;
+    right: 0;
+    bottom: 40px;
+}
+
+.breder{
+  font-size: 16pt;
+  font-style: black;
+  background-image: none;
+  width: 200px;
+  height: 30px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+  color: lightgrey;
+  padding-top: 10px;
+}
+
+
+@media (max-width: 900px){
+
+  nav{
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+
+  }
+
+  .start{
+    grid-row: 1;
+    height: 70px;
+    width: 220px;
+    padding-left: 20px;
+    float: left;
+  }
+
+  .logotjes{
+    grid-column: 3;
+    margin-right: 0;
+  }
+
+  .onderdeel{
+    display: none;
+  }
+
+  .container{
+    display: block;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .foto{
+    display: block;
+    max-width: 300px;
+
+  }
+
+  .andere{
+    display: block;
+    height: 300px;
+  }
+
+
+}
